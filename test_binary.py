@@ -1,4 +1,7 @@
-def __init__(self, a, b):
+
+class BinarySearch(list):
+
+  def __init__(self, a, b):
     super(BinarySearch, self).__init__(range(b, a * b + b, b))
 
     self.length = a
